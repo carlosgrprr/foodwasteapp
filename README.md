@@ -1,0 +1,2 @@
+# foodwasteapp
+Food waste analyzer
