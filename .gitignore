@@ -1,0 +1,117 @@
+# Python-related ignores
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+*.whl
+*.manifest
+*.spec
+.DS_Store
+*.log
+*.env
+
+# Virtual environment directories
+env/
+venv/
+.venv/
+
+# Flask-specific ignores
+instance/
+*.sqlite3
+*.db
+*.pid
+
+# Node.js-related ignores
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Flutter-related ignores
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+generated/
+*.apk
+*.aab
+*.app
+*.flutter-plugins-dependencies
+*.iml
+.idea/
+
+# Logs and runtime files
+logs/
+*.log
+*.out
+*.pid
+*.seed
+*.bak
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# IDE and editor-specific ignores
+.vscode/
+.idea/
+*.iml
+
+# Secrets and environment files
+.env
+.env.*
+*.pem
+*.crt
+*.key
+secrets.json
+keys.json
+
+# Coverage and testing tools
+coverage/
+*.coverage
+.nyc_output/
+.pytest_cache/
+test-results/
+junit-report.xml
+
+# Cache files and folders
+.cache/
+*.swp
+*.swo
+*.tmp
+__pycache__/
+*.class
+*.project
+
+# Specific to package managers
+.pnpm-debug.log
+.yarn/*
+.yarn-integrity
+.pnpm-lock.yaml
+
+# Flutter build artifacts
+build/
+flutter_export_environment.sh
+flutter_export_environment.bat
+
+# Temporary files
+*.tmp
+*.log.*
+
+# Backup files
+*.bak
+
+# Machine learning and large files
+*.h5
+*.ckpt
+*.weights
+*.tflite
